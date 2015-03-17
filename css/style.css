@@ -1,4 +1,6 @@
-
+* {
+	font-family: 'Raleway', sans-serif;
+}
 
 html {
 	margin: 0px;
@@ -20,7 +22,7 @@ nav {
 }	
 
 p#hi {
-	font-family: 'Share Tech Mono',Arial;
+	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-align: center;
 	font-size: 60px;
@@ -32,7 +34,7 @@ p#hi {
 }
 
 p#im {
-	font-family: 'Share Tech Mono',Arial;
+	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-align: center;
 	font-size: 60px;
@@ -43,7 +45,7 @@ p#im {
 	display: none;
 }
 p#clare {
-	font-family: 'Share Tech Mono',Arial;
+	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-align: center;
 	font-size: 60px;
@@ -82,6 +84,7 @@ img.circles {
     transition: transform .8s ease-in-out;  
 }
 
+
 img.circles:hover {
   transform:rotate(360deg);
     -ms-transform:rotate(360deg);
@@ -89,5 +92,9 @@ img.circles:hover {
 }
  
 section#arrowsdown {
-	margin-top: 90px;
+	margin-top: 40px;
+}
+
+section#words{
+	text-align: center;
 }

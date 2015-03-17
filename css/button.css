@@ -45,3 +45,15 @@
   animation-delay:0s;
   -webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
+
+
+h1,h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
