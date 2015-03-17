@@ -3,8 +3,11 @@ $(document).ready(function(){
 	setTimeout(function() { $("#hi").fadeOut(100) });
 	setTimeout(function() { $("#im").fadeIn(4000) });
 	setTimeout(function() { $("#im").fadeOut(100) });
-	setTimeout(function() { $("#clare").fadeIn("slow", 6000) });
+	setTimeout(function() { $("#clare").fadeIn("slow", 8000) });
+	setTimeout(function() { $("#clare").fadeOut(100) });
+
 })
+
 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
