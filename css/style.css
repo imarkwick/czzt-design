@@ -1,6 +1,4 @@
-* {
-	font-family: 'Share Tech Mono', Arial ;
-}
+
 
 html {
 	margin: 0px;
@@ -21,6 +19,41 @@ nav {
 	padding: 0px;
 }	
 
+p#hi {
+	font-family: 'Share Tech Mono',Arial;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 7.5px;
+	padding-top: 15px;
+	opacity: .9;
+	margin-top: 5px;
+	display: none;
+}
+
+p#im {
+	font-family: 'Share Tech Mono',Arial;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 7.5px;
+	padding-top: 15px;
+	opacity: .9;
+	margin-top: 5px;
+	display: none;
+}
+p#clare {
+	font-family: 'Share Tech Mono',Arial;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 10px;
+	padding-top: 15px;
+	opacity: .9;
+	margin-top: 5px;
+	display: none;
+}
+
 section.circles {
 	position: fixed;
 	padding-top: 180px;
@@ -35,11 +68,13 @@ section#bannerblue {
 	height: 250px;
 	margin-left: 10px;
 	margin-right: 10px;
-	opacity: .95;
+	opacity: .7;
 }
 
 img.circles {
+	border-radius: 150px;
 	height: 220px;
+	width: 220px;
 	padding: 10px;
   -webkit-transition: -webkit-transform .8s ease-in-out;
     -ms-transition: -ms-transform .8s ease-in-out;
