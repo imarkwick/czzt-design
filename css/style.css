@@ -1,13 +1,16 @@
-* {
-	font-family: 'Raleway', sans-serif;
-}
-
 html {
 	margin: 0px;
 	padding: 0px;
+	overflow: scroll;
 }
 
-
+body {
+	-webkit-filter: blur(4px);
+	/*-webkit-transition: filter 0.4s ease;
+    -moz-transition: filter 0.4s ease;
+    -o-transition: filter 0.4s ease;
+    transition: filter 0.4s ease;*/
+}
 
 nav {
 	position: fixed;
@@ -19,6 +22,8 @@ nav {
 	opacity: .7;
 	margin: 0px;
 	padding: 0px;
+	transition: top 2s;
+
 }	
 
 
