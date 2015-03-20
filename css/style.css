@@ -87,7 +87,17 @@ section#words{
 
 /*//media queries*/
 
-/*/ipad horizontal/*/
+/*ipad horizontal*/
+
+@media screen and (max-width: 1024px) {
+	 section.circles{
+ 	padding-top: 250px;
+ 	height: 500px;
+ 	margin-left: none;
+ }
+}
+
+/*/ipad vertical/*/
 
 @media screen and (max-width:768px) {
 	nav {
