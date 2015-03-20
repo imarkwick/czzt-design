@@ -28,7 +28,7 @@ var hellos = setTimeout(function() {
 
 $(window).scroll(function(){
     $("#clare").css({
-        font: '20px'
+        fontsize: '20px'
     })
 });
 

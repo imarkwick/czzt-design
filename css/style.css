@@ -26,20 +26,7 @@ nav {
 }	
 
 
-
-p#hi {
-	font-family: 'Raleway', sans-serif;
-	color: white;
-	text-align: center;
-	font-size: 50px;
-	letter-spacing: 7.5px;
-	padding-top: 35px;
-	opacity: .9;
-	margin-top: 5px;
-	display: none;
-}
-
-p#im {
+p.intro {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-align: center;
@@ -52,16 +39,9 @@ p#im {
 }
 
 p#clare {
-	font-family: 'Raleway', sans-serif;
-	color: white;
-	text-align: center;
-	font-size: 50px;
 	letter-spacing: 2px;
-	padding-top: 35px;
-	opacity: .9;
-	margin-top: 5px;
-	display: none;
 }
+
 
 section.circles {
 	position: fixed;
@@ -72,13 +52,6 @@ section.circles {
 	width: 100%;
 }
 
-/*@media screen and (max-width:560px) {
-	section.circles {
-		width:;
-	}
-	}*/
-
-
 
 section#bannerblue {
 	height: 250px;
@@ -87,14 +60,6 @@ section#bannerblue {
 	margin-bottom: 20px;
 }
 
-@media screen and (max-width:560px) {
-section#bannerblue {
-		margin-top: 50px;	
-		width: 100%;
-		height: 100px;
-		
-	}
-	}
 
 img.circles {
 	border-radius: 150px;
@@ -105,16 +70,6 @@ img.circles {
     -ms-transition: -ms-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;  
 }
-
-@media screen and (max-width:560px) {
-	img.circles {
-
-		height: 72px;
-		width:72px;
-	}
-	}
-
-
 
 img.circles:hover {
   transform:rotate(360deg);
@@ -129,4 +84,161 @@ section#arrowsdown {
 section#words{
 	text-align: center;
 }
+
+/*//media queries*/
+
+/*/ipad horizontal/*/
+
+@media screen and (max-width:768px) {
+	nav {
+		height: 190px;
+	}
+	}
+
+@media screen and (max-width:768px) {
+	p.intro {
+			font-size: 60px;
+			padding-top:70px;		
+
+	}
+	}
+
+@media screen and (max-width: 768px) {
+	 section.circles{
+ 	padding-top: 400px;
+ 	height: 500px;
+ 	margin-left: none;
+ }
+}
+@media screen and (max-width: 768px) {
+	 img.circles{
+ 	height: 185px;
+		width:185px;
+ }
+}
+@media screen and (max-width:768px) {
+	section#words {
+		font-size: 1em;
+}
+}
+
+@media screen and (max-width: 768px) {
+	section#arrowsdown {
+	margin-top: 100px;
+}
+}
+
+/*//iphone horizontal//
+*/
+@media screen and (max-width:480px) {
+	nav {
+		height: 70px;		
+	}
+	}
+@media screen and (max-width:480px) {
+	p.intro {
+			font-size: 30px;
+			padding-top: 20px;
+	}
+	}
+
+@media screen and (max-width:480px) {
+ section.circles{
+ 	padding-top:80px;
+ 	height: 100px;
+ }
+}
+@media screen and (max-width:480px) {
+	section#words {
+		font-size: 7px;
+}
+}
+@media screen and (max-width:480px) {
+section#bannerfull {
+	height: 0;
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+}
+@media screen and (max-width:480px) {
+section#bannerblue {
+		margin-top: 0px;	
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+		height: 100px;
+		
+	}
+	}
+
+@media screen and (max-width:480px) {
+	img.circles {
+		height: 100px;
+		width:100px;
+	}
+	}
+
+@media screen and (max-width: 480px) {
+	section#arrowsdown {
+	margin-top: 0px;
+}
+}
+
+/*iphone vertical
+*/
+
+@media screen and (max-width:350px) {
+	nav {
+		height: 90px;
+	}
+	}
+@media screen and (max-width:350px) {
+	p.intro {
+			font-size: 25px;
+			padding-top:30px;		
+
+	}
+	}
+
+@media screen and (max-width:350px) {
+	section#words {
+		font-size: 8px;
+}
+}
+@media screen and (max-width:350px) {
+section#bannerfull {
+	height: 0;
+	margin-top: 0;
+	margin-bottom: 0;	
+
+}
+}
+@media screen and (max-width:350px) {
+section#bannerblue {
+		margin-top: 0px;	
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+		height: 90px;
+		
+	}
+	}
+@media screen and (max-width:350px) {
+ section.circles{
+ 	padding-top: 180px;
+ 	height: 500px;
+ }
+
+@media screen and (max-width:350px) {
+	img.circles {
+		height: 70px;
+		width:70px;
+	}
+	}
+@media screen and (max-width: 350px) {
+	section#arrowsdown {
+	margin-top: 40px;
+}
+}
+
 
