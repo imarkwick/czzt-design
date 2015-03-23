@@ -96,7 +96,11 @@ section#words{
  	padding-top: 250px;
  	height: 500px;
  	margin-left: none;
- }
+ 	}
+ 	section#words {
+	font-size: 1em;	
+	padding-top: 20px;
+	}
 }
 
 /*/ipad vertical/*/
