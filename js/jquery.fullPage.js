@@ -101,7 +101,7 @@
             loopBottom: false,
             loopTop: false,
             loopHorizontal: true,
-            continuousVertical: false,
+            continuousVertical: true,
             normalScrollElements: null,
             scrollOverflow: false,
             touchSensitivity: 5,
@@ -115,7 +115,7 @@
             //design
             controlArrows: true,
             controlArrowColor: '#fff',
-            verticalCentered: true,
+            verticalCentered: false,
             resize: false,
             sectionsColor : [],
             paddingTop: 0,

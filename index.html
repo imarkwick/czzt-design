@@ -14,19 +14,22 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/jquery.fullPage.css">
 		<link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
 
 		
 		<script src="js/jquery.js" type="text/javascript"> </script>
 		<script src="js/vague.js" type="text/javascript"></script>
 		<script src="js/script.js" type="text/javascript"></script>
+        <script src="js/jquery.fullPage.js" type="text/javascript"></script>
 
 	</head>
 
 
 <body>
-<!-- 	<div id="distance">0 pixels down</div>
- -->	<header>
+    <div id="fullpage">
+        <div class="section" id="section">
+	<header>
 		<nav class="container-twelve-columns" id="navigation">
 			
 			<p id="hi" class="intro">HI</p>
@@ -54,14 +57,6 @@
 		</h1>
 </section>
 
-
-
-
-
-
-
-
-
 	<section id="arrowsdown">
 
 		<svg class="arrows">
@@ -71,10 +66,25 @@
 		</svg>
 	</section>
 </section>
+    </div>
+
+    <div class="section" id="section">
+    </div>
+</div>
 	<script src="js/wow.min.js"></script>
 <script>
  new WOW().init();
 </script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#eeeee', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                menu: '#menu',
+                scrollingSpeed: 1000
+            });
+        });
+    </script>
 </body>
 
 </html>
