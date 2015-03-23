@@ -14,9 +14,9 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/email.css">
         <link rel="stylesheet" href="css/jquery.fullPage.css">
-		<link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-
+		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
 		
 		<script src="js/jquery.js" type="text/javascript"> </script>
 		<script src="js/vague.js" type="text/javascript"></script>
@@ -34,7 +34,7 @@
 			
 			<p id="hi" class="intro">HI</p>
 			<p id="im" class="intro">I'M</p>
-			<p id="clare" class="intro">Clare Trembath</p>
+			<p id="clare" class="intro">clare trembath</p>
 		</nav>
 	</header>
 	<section id="whole">
@@ -69,7 +69,35 @@
     </div>
 
     <div class="section" id="section">
+
+        <section class="container">
+            
+<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="message"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+
+        <input type="submit" value="mail me" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
     </div>
+</section>
 </div>
 	<script src="js/wow.min.js"></script>
 <script>
@@ -78,7 +106,7 @@
 <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                sectionsColor: ['#eeeee', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                sectionsColor: ['#eeeee', '#eeeee', '#7BAABE', 'whitesmoke', '#ccddff'],
                 anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
                 menu: '#menu',
                 scrollingSpeed: 1000
