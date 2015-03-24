@@ -1,6 +1,5 @@
 * {
-font-family: 'Source Code Pro', sans-serif ;
-	font-weight: 100;
+	font-family: 'PT Sans', sans-serif;
 }
 html {
 	margin: 0px;
@@ -31,14 +30,13 @@ nav {
 
 
 p.intro {
-	font-family: 'Source Code Pro', sans-serif ;
+	font-family: 'PT Sans', sans-serif;
 	color: white;
 	text-align: center;
 	font-size: 50px;
 	letter-spacing: 7.5px;
 	padding-top: 35px;
 	opacity: .9;
-	font-weight: 200;
 	margin-top: 5px;
 	display: none;
 }
@@ -50,7 +48,7 @@ p#clare {
 
 section.circles {
 	position: absolute;
-	padding-top: 320px;
+	padding-top: 300px;
 	padding-bottom: 50px;
 	opacity: .95;
 	height: 500px;
