@@ -90,6 +90,9 @@ section#words{
 	text-align: center;
 }
 
+section#emailform{
+	background-image: url(images/waterback.jpg);
+}
 /*//media queries*/
 
 /*ipad horizontal*/
