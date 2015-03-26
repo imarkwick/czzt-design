@@ -1,0 +1,225 @@
+* {
+	font-family: 'PT Sans', sans-serif;
+}
+html {
+	margin: 0px;
+	padding: 0px;
+	overflow: scroll;
+}
+
+body {
+	-webkit-filter: blur(4px);
+	/*-webkit-transition: filter 0.4s ease;
+    -moz-transition: filter 0.4s ease;
+    -o-transition: filter 0.4s ease;
+    transition: filter 0.4s ease;*/
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	background-color: black;
+	top: 0;
+	left: 0;
+	opacity: .7;
+	margin: 0px;
+	padding: 0px;
+
+}	
+
+
+p.intro {
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 7.5px;
+	padding-top: 35px;
+	opacity: .9;
+	margin-top: 5px;
+	display: none;
+}
+
+p#clare {
+	letter-spacing: 2px;
+}
+
+
+section.circles {
+	position: absolute;
+	padding-top: 300px;
+	padding-bottom: 50px;
+	opacity: .95;
+	height: 500px;
+	clear: both;
+	width: 100%;
+}
+
+
+section#bannerblue {
+	height: 250px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+
+img.circles {
+	border-radius: 150px;
+	height: 230px;
+	width: 230px;
+	padding: 8px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;  
+}
+
+img.circles:hover {
+  transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
+ 
+section#arrowsdown {
+	margin-top: 40px;
+}
+
+section#words{
+	padding-top: 70px;
+	text-align: center;
+}
+
+section#emailform{
+	background-image: url(images/waterback.jpg);
+}
+/*//media queries*/
+
+/*ipad horizontal*/
+
+@media screen and (max-width: 1024px) {
+	section.circles{
+ 	padding-top: 250px;
+ 	height: 500px;
+ 	margin-left: none;
+ 	}
+ 	section#words {
+	font-size: 1em;	
+	padding-top: 20px;
+	}
+}
+
+/*/ipad vertical/*/
+
+@media screen and (max-width:768px) {
+	nav {
+	height: 190px;
+	}
+	p.intro {
+	font-size: 60px;
+	padding-top:70px;
+	}		
+	section#words{
+	padding-top: 30px;
+	text-align: center;
+	}
+	section.circles{
+ 	padding-top: 400px;
+ 	height: 500px;
+ 	margin-left: none;
+ 	}
+	img.circles{
+ 	height: 185px;
+	width:185px;
+ 	}
+	section#words {
+	font-size: 1em;	
+	padding-top: 30px;
+	}
+	section#arrowsdown {
+	margin-top: 100px;
+	}
+}
+
+/*//iphone horizontal//
+*/
+@media screen and (max-width:480px) {
+	nav {
+	height: 70px;		
+	}
+	p.intro {
+	font-size: 30px;
+	padding-top: 20px;
+	}
+	section.circles{
+	padding-top:80px;
+	height: 100px;
+	}
+	section#words {
+	font-size: 7px;
+	padding-top: 0px;
+	}
+	section#bannerfull {
+	height: 0;
+	margin-top: 0;
+	margin-bottom: 0;	
+	}
+	section#bannerblue {
+	margin-top: 0px;	
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	height: 100px;
+	}
+	img.circles {
+	height: 100px;
+	width:100px;
+	}
+	section#arrowsdown {
+	margin-top: 0px;
+	}
+}
+
+/*iphone vertical
+*/
+
+@media screen and (max-width:350px) {
+	nav {
+	height: 90px;
+	}
+	p.intro {
+	font-size: 25px;
+	padding-top:30px;		
+
+	}
+	section#words {
+	font-size: 8px;
+	}
+	section#bannerfull {
+	height: 0;
+	margin-top: 0;
+	margin-bottom: 0;	
+
+	}
+	section#bannerblue {
+	margin-top: 0px;	
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	height: 90px;
+
+	}
+	section.circles{
+	padding-top: 180px;
+	height: 500px;
+	}
+	img.circles {
+	height: 70px;
+	width:70px;
+	}
+	section#arrowsdown {
+	margin-top: 40px;
+	}
+	}
+
+
