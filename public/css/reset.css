@@ -54,6 +54,7 @@ img {
 
 input, textarea, select {
 	font: inherit;
+	opacity:.9;
 }
 
 .group:before,

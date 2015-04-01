@@ -1,3 +1,6 @@
+* {
+	font-family: 'PT Sans', sans-serif;
+}
 html {
 	margin: 0px;
 	padding: 0px;
@@ -27,7 +30,7 @@ nav {
 
 
 p.intro {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	color: white;
 	text-align: center;
 	font-size: 50px;
@@ -44,8 +47,9 @@ p#clare {
 
 
 section.circles {
-	position: fixed;
-	padding-top: 180px;
+	position: absolute;
+	padding-top: 300px;
+	padding-bottom: 50px;
 	opacity: .95;
 	height: 500px;
 	clear: both;
@@ -82,116 +86,98 @@ section#arrowsdown {
 }
 
 section#words{
+	padding-top: 70px;
 	text-align: center;
 }
 
+section#emailform{
+	background-image: url(images/waterback.jpg);
+}
 /*//media queries*/
 
 /*ipad horizontal*/
 
 @media screen and (max-width: 1024px) {
-	 section.circles{
+	section.circles{
  	padding-top: 250px;
  	height: 500px;
  	margin-left: none;
- }
+ 	}
+ 	section#words {
+	font-size: 1em;	
+	padding-top: 20px;
+	}
 }
 
 /*/ipad vertical/*/
 
 @media screen and (max-width:768px) {
 	nav {
-		height: 190px;
+	height: 190px;
 	}
-	}
-
-@media screen and (max-width:768px) {
 	p.intro {
-			font-size: 60px;
-			padding-top:70px;		
-
+	font-size: 60px;
+	padding-top:70px;
+	}		
+	section#words{
+	padding-top: 30px;
+	text-align: center;
 	}
-	}
-
-@media screen and (max-width: 768px) {
-	 section.circles{
+	section.circles{
  	padding-top: 400px;
  	height: 500px;
  	margin-left: none;
- }
-}
-@media screen and (max-width: 768px) {
-	 img.circles{
+ 	}
+	img.circles{
  	height: 185px;
-		width:185px;
- }
-}
-@media screen and (max-width:768px) {
+	width:185px;
+ 	}
 	section#words {
-		font-size: 1em;
-}
-}
-
-@media screen and (max-width: 768px) {
+	font-size: 1em;	
+	padding-top: 30px;
+	}
 	section#arrowsdown {
 	margin-top: 100px;
-}
+	}
 }
 
 /*//iphone horizontal//
 */
 @media screen and (max-width:480px) {
 	nav {
-		height: 70px;		
+	height: 70px;		
 	}
-	}
-@media screen and (max-width:480px) {
 	p.intro {
-			font-size: 30px;
-			padding-top: 20px;
+	font-size: 30px;
+	padding-top: 20px;
 	}
+	section.circles{
+	padding-top:80px;
+	height: 100px;
 	}
-
-@media screen and (max-width:480px) {
- section.circles{
- 	padding-top:80px;
- 	height: 100px;
- }
-}
-@media screen and (max-width:480px) {
 	section#words {
-		font-size: 7px;
-}
-}
-@media screen and (max-width:480px) {
-section#bannerfull {
+	font-size: 7px;
+	padding-top: 0px;
+	}
+	section#bannerfull {
 	height: 0;
 	margin-top: 0;
 	margin-bottom: 0;	
-}
-}
-@media screen and (max-width:480px) {
-section#bannerblue {
-		margin-top: 0px;	
-		margin-left: 0;
-		margin-right: 0;
-		width: 100%;
-		height: 100px;
-		
 	}
+	section#bannerblue {
+	margin-top: 0px;	
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	height: 100px;
 	}
-
-@media screen and (max-width:480px) {
 	img.circles {
-		height: 100px;
-		width:100px;
+	height: 100px;
+	width:100px;
 	}
-	}
-
-@media screen and (max-width: 480px) {
 	section#arrowsdown {
 	margin-top: 0px;
-}
+	}
 }
 
 /*iphone vertical
@@ -199,56 +185,41 @@ section#bannerblue {
 
 @media screen and (max-width:350px) {
 	nav {
-		height: 90px;
+	height: 90px;
 	}
-	}
-@media screen and (max-width:350px) {
 	p.intro {
-			font-size: 25px;
-			padding-top:30px;		
+	font-size: 25px;
+	padding-top:30px;		
 
 	}
-	}
-
-@media screen and (max-width:350px) {
 	section#words {
-		font-size: 8px;
-}
-}
-@media screen and (max-width:350px) {
-section#bannerfull {
+	font-size: 8px;
+	}
+	section#bannerfull {
 	height: 0;
 	margin-top: 0;
 	margin-bottom: 0;	
 
-}
-}
-@media screen and (max-width:350px) {
-section#bannerblue {
-		margin-top: 0px;	
-		margin-left: 0;
-		margin-right: 0;
-		width: 100%;
-		height: 90px;
-		
 	}
-	}
-@media screen and (max-width:350px) {
- section.circles{
- 	padding-top: 180px;
- 	height: 500px;
- }
+	section#bannerblue {
+	margin-top: 0px;	
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	height: 90px;
 
-@media screen and (max-width:350px) {
+	}
+	section.circles{
+	padding-top: 180px;
+	height: 500px;
+	}
 	img.circles {
-		height: 70px;
-		width:70px;
+	height: 70px;
+	width:70px;
 	}
-	}
-@media screen and (max-width: 350px) {
 	section#arrowsdown {
 	margin-top: 40px;
-}
-}
+	}
+	}
 
 

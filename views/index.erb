@@ -1,8 +1,6 @@
 <!doctype html>
 <html>
 <head>
-	<html>
-	<head>
 		<meta charset="utf-8">
 
 		<meta name="viewport" content="width=device-width">
@@ -16,24 +14,27 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/button.css">
-		<link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-
+        <link rel="stylesheet" href="css/email.css">
+        <link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 		
 		<script src="js/jquery.js" type="text/javascript"> </script>
 		<script src="js/vague.js" type="text/javascript"></script>
 		<script src="js/script.js" type="text/javascript"></script>
+        <script src="js/jquery.fullPage.js" type="text/javascript"></script>
 
 	</head>
 
 
 <body>
-<!-- 	<div id="distance">0 pixels down</div>
- -->	<header>
+    <div id="fullpage">
+    <div class="section" id="section">
+	<header>
 		<nav class="container-twelve-columns" id="navigation">
 			
 			<p id="hi" class="intro">HI</p>
 			<p id="im" class="intro">I'M</p>
-			<p id="clare" class="intro">Clare Trembath</p>
+			<p id="clare" class="intro">clare trembath</p>
 		</nav>
 	</header>
 	<section id="whole">
@@ -54,22 +55,61 @@
 		     data-rotate='[ " designer.", "developer." ]'></span>
 		</h1>
 
+</section>
+
 	<section id="arrowsdown">
 
-		<a href="#bottom" id="top"><svg class="arrows">
+		<svg class="arrows">
 			<path class="a1" d="M0 0 L30 32 L60 0"></path>
 			<path class="a2" d="M0 20 L30 52 L60 20"></path>
 			<path class="a3" d="M0 40 L30 72 L60 40"></path>
-		</svg></a>
+		</svg>
 	</section>
-	
-	<a href="#top" id="bottom">back up</a>
 </section>
+</div>
 
+    <div class="section" id="section" style="background-image: url(images/waterback.jpg);">
+ <section class="container" id="emailform">
+<div id="form-main">
+  <div id="form-div">
+
+
+    <form action="/" method="post" enctype="text/plain" class="form" id="form1">
+      
+
+        <input value="name" name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="name" id="name"/>
+ 
+
+        <input value="emailaddress" name="emailaddress" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="email"/>
+    	
+
+        <textarea value="body" name="body" type="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="message"></textarea>
+    
+      
+      <div class="submit">
+        <button type="submit" value="Send" id="button-blue"/>
+    </div>
+    </form>
+
+  </div>
+    </div>
+
+</section>
+</div>
 	<script src="js/wow.min.js"></script>
 <script>
  new WOW().init();
 </script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#eeeee', '#eeeee', '#7BAABE', 'whitesmoke', '#ccddff'],
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                menu: '#menu',
+                scrollingSpeed: 1000
+            });
+        });
+    </script>
 </body>
 
 </html>
