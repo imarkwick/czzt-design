@@ -12,15 +12,6 @@ class Application < Sinatra::Base
   end
 
  post '/' do
-  # params=Rack::Utils.parse_nested_query(request.body.read)
-  @email = params[:emailaddress]
-  @body = params[:body]
-  @name = params[:name]
-
-  puts @email
-  puts @body
-  puts @name
-
    Pony.mail({
     :from =>params[:emailaddress],
     :subject =>params[:name],
@@ -37,8 +28,6 @@ class Application < Sinatra::Base
         :domain               => 'localhost.9292',
   }
 })
-  puts params
-  # flash[:notice] = "Event updated"
   redirect '/'
   end
 
