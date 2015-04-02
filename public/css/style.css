@@ -95,6 +95,24 @@ section#emailform{
 }
 /*//media queries*/
 
+
+/* Laptops /*/
+@media screen and (max-width : 1324px) { 
+	section.circles{
+ 	padding-top: 200px;
+ 	height: 500px;
+ 	margin-left: none;
+ 	}
+ 	section#words {
+	font-size: 1em;	
+	padding-top: 10px;
+	}
+}
+
+/* Styles */
+ 
+}  
+
 /*ipad horizontal*/
 
 @media screen and (max-width: 1024px) {
