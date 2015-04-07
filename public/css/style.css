@@ -40,6 +40,18 @@ p.intro {
   display:none
 }
 
+p#intro-ios {
+  font-family:'PT Sans',sans-serif;
+  color:#fff;
+  text-align:center;
+  font-size:50px;
+  letter-spacing:7.5px;
+  padding-top:35px;
+  opacity:.9;
+  margin-top:5px;
+  display:none;
+}
+
 p#clare {
   letter-spacing:2px
 }

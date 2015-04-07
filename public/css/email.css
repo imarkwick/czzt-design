@@ -99,6 +99,7 @@ input:focus, textarea:focus {
 	color:white;
 	font-family: 'PT Sans', sans-serif;
 	font-size:30px;
+  letter-spacing:5;
 	padding-top:22px;
 	padding-bottom:22px;
 	-webkit-transition: all 0.3s;
@@ -109,7 +110,8 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
 	background-color: rgba(0,0,0,0);
-	color: black;
+	color: white;
+  text-shadow: 3px 3px black;
 }
 	
 .submit:hover {
