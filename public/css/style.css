@@ -40,7 +40,12 @@ p.intro {
   display:none
 }
 
-p#intro-ios {
+
+p#clare {
+  letter-spacing:2px
+}
+
+div#intro-ios {
   font-family:'PT Sans',sans-serif;
   color:#fff;
   text-align:center;
@@ -50,10 +55,6 @@ p#intro-ios {
   opacity:.9;
   margin-top:5px;
   display:none;
-}
-
-p#clare {
-  letter-spacing:2px
 }
 
 section.circles {
