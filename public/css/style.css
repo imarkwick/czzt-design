@@ -99,6 +99,14 @@ section#words {
   text-align:center
 }
 
+h1#mywork {
+  text-align: center;
+  padding-top: 10px;
+}
+video {
+  padding-left: 10px
+}
+
 section#emailform {
   background-image:url(images/waterback.jpg)
 }
