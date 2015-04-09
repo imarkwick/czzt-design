@@ -134,17 +134,53 @@ input:focus, textarea:focus {
   background-color:#89FFD9;
   opacity: .7;
 }
+@media screen and (max-width: 480px) {
+#form-main {
+  padding-top: 5px;
+  }
+.feedback-input{
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+textarea{
+  height:100px;
+}
+#button-blue{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+}
 
 @media only screen and (max-width: 580px) {
 	#form-div{
 		left: 3%;
 		margin-right: 3%;
-		width: 88%;
+		width: 100%;
 		margin-left: 0;
 		padding-left: 3%;
 		padding-right: 3%;
 	}
 }
+
+@media screen and (max-width: 320px) {
+#form-main {
+  padding-top: 25%;
+  }
+.feedback-input{
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+textarea{
+  height:150px;
+}
+#button-blue{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+}
+
 
 @-webkit-keyframes wavvy1 {
   0% {
