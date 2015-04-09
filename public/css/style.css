@@ -197,6 +197,10 @@ video#engvideo {
   opacity: .9;
 }
 
+video#sleaze{
+  float: right;
+}
+
 /*//iphone horizontal//
 */
 @media screen and (max-width:480px) {

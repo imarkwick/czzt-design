@@ -16,7 +16,7 @@ $(document).ready(function() {
   }, 1200);
 
 //video
-  $("#cover").click(function(){
+  $("#covereng").click(function(){
     $("#englogo").fadeOut();
 });
 });
