@@ -181,6 +181,22 @@ section#arrowsdown {
 }
 }
 
+
+img#englogo {
+  vertical-align: bottom;
+  max-width: 571px;
+  position: absolute;
+  z-index: 10;
+  opacity: 1.5;
+}
+
+video#engvideo {
+  padding-left: 10px;
+  clear: right;
+  position: absolute;
+  opacity: .9;
+}
+
 /*//iphone horizontal//
 */
 @media screen and (max-width:480px) {

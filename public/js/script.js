@@ -14,6 +14,11 @@ $(document).ready(function() {
   setTimeout(function() {
     $('body').css("-webkit-filter", "blur(0px)")
   }, 1200);
+
+//video
+  $("#cover").click(function(){
+    $("#englogo").fadeOut();
+});
 });
 var hellos = setTimeout(function() {
   $("#hi").fadeIn(3000);
