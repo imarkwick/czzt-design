@@ -99,21 +99,32 @@ section#words {
   text-align:center
 }
 
+section#work-title{
+  height:100px;
+  background-color: black;
+  opacity: .5;
+  width: 100%;
+}
+section#apparel{
+  margin-top: 20px;
+}
+
+section#sleaze {
+  margin-top: 367px;
+}
+
 h1#mywork {
   text-align: center;
   padding-top: 10px;
 }
-video {
-  padding-left: 10px
+video#sleazevideo {
+  position: absolute;
 }
 
 section#emailform {
-  background-image:url(images/waterback.jpg)
+  background-image:url(images/waterback.jpg);
 }
-div#coversleaze {
-  margin-top: 367px;
-  background-color: #B0B2B8;
-}
+
 
 /*//media queries*/
 /* Laptops /*/

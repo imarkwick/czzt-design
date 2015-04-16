@@ -31,5 +31,9 @@ class Application < Sinatra::Base
   redirect '/'
   end
 
+  get '/engindex.erb' do
+    erb :engindex
+  end
+
 
 end
