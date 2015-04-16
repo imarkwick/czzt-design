@@ -105,8 +105,10 @@ section#work-title{
   opacity: .5;
   width: 100%;
 }
+
+
 section#apparel{
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 section#emailform {
@@ -127,6 +129,7 @@ img#englogolink:hover{
 }
 
 video#engvideo {
+  margin-top: 50px;
   padding-left: 10px;
   clear: right;
   position: fixed;

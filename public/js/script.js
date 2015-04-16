@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 //video
 
-});
+// });
 var hellos = setTimeout(function() {
   $("#hi").fadeIn(3000);
   $("#hi").fadeOut(100);
@@ -85,3 +85,5 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+});
