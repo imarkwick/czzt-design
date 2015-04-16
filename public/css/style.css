@@ -110,6 +110,10 @@ video {
 section#emailform {
   background-image:url(images/waterback.jpg)
 }
+div#coversleaze {
+  margin-top: 367px;
+  background-color: #B0B2B8;
+}
 
 /*//media queries*/
 /* Laptops /*/

@@ -16,9 +16,9 @@ $(document).ready(function() {
   }, 1200);
 
 //video
-  $("#covereng").click(function(){
-    $("#englogo").fadeOut();
-});
+  setTimeout(function(){
+    $("#englogo").fadeOut(2000);
+}, 2000);
 });
 var hellos = setTimeout(function() {
   $("#hi").fadeIn(3000);
