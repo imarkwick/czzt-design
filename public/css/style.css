@@ -109,20 +109,83 @@ section#apparel{
   margin-top: 20px;
 }
 
-section#sleaze {
-  margin-top: 367px;
-}
-
 h1#mywork {
   text-align: center;
   padding-top: 10px;
 }
-video#sleazevideo {
-  position: absolute;
-}
+
 
 section#emailform {
   background-image:url(images/waterback.jpg);
+}
+
+
+img#englogo {
+  vertical-align: bottom;
+  max-width: 571px;
+  position: absolute;
+  z-index: 10;
+  opacity: 1.5;
+}
+
+video#engvideo {
+  padding-left: 10px;
+  clear: right;
+  position: fixed;
+  opacity: .9;
+  height: 300px;
+
+}
+
+section#sleaze {
+  border-top: solid 1px #000000;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+img#englogolink{
+height:100px;
+border-bottom:1px solid #000000;
+float:right;
+margin-right: 100px;
+margin-top: 40px;
+}
+
+p#engintro {
+  width: 350px;
+  float:right;
+  text-align: center;
+  clear: both;
+  margin-right: 30px;
+  margin-top: 30px;
+
+}
+
+video#sleazevideo {
+  float:left;
+  padding:20px;
+  clear: both;
+  margin-top: -150px;
+  height:350px;
+  position: absolute;
+}
+p#sleazeintro{
+  margin-top:100px;
+  width:385px;
+  text-align: center;
+}
+
+img#englogolink:hover{
+  background-color: #9FFFF5;
+}
+
+img#sleazylogo {
+  width:385px;
+  float:left;
+}
+
+img#sleazylogo:hover{
+  background-color: #9FFFF5;
 }
 
 
@@ -197,41 +260,6 @@ section#arrowsdown {
 }
 
 
-img#englogo {
-  vertical-align: bottom;
-  max-width: 571px;
-  position: absolute;
-  z-index: 10;
-  opacity: 1.5;
-}
-
-video#engvideo {
-  padding-left: 10px;
-  clear: right;
-  position: absolute;
-  opacity: .9;
-}
-
-img#englogolink{
-height:100px;
-border-bottom:1px solid #000000;
-padding: 10px;
-margin-right: 30%;
-float:right;
-}
-
-img#englogolink:hover{
-  background-color: #9FFFF5;
-}
-
-img#sleazylogo {
-  width:300px;
-  float:right;
-}
-
-img#sleazylogo:hover{
-  background-color: #9FFFF5;
-}
 /*//iphone horizontal//
 */
 @media screen and (max-width:480px) {

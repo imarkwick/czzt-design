@@ -16,9 +16,7 @@ $(document).ready(function() {
   }, 1200);
 
 //video
-  setTimeout(function(){
-    $("#englogo").fadeOut(2000);
-}, 2000);
+
 });
 var hellos = setTimeout(function() {
   $("#hi").fadeIn(3000);
