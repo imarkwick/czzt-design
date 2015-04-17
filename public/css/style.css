@@ -134,7 +134,7 @@ video#engvideo {
   clear: right;
   position: fixed;
   opacity: .9;
-  height: 300px;
+  height: 250px;
 }
 
 p#engintro {
@@ -161,7 +161,7 @@ video#sleazevideo {
   padding:20px;
   clear: both;
   margin-top: -150px;
-  height:350px;
+  height:250px;
   position: absolute;
 }
 
