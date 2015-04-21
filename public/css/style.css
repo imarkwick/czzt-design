@@ -184,6 +184,54 @@ img#sleazylogo:hover{
   background-color: #9FFFF5;
 }
 
+div#joeheader {
+  height: 100px;
+  width:100%;
+  background-color: #000;
+  opacity: .5;
+  top:0;
+  left:0;
+  opacity:.7;
+  margin:0;
+  padding:0
+}
+
+img#joelogo{
+height:150px;
+width: 200px;
+border-bottom:1px solid #BDBDBD;
+float:right;
+margin-right: 217px;
+margin-top: 40px;
+}
+
+img#joelogo:hover{
+  background-color: #9FFFF5;
+}
+
+p#joeintro  {
+  width: 350px;
+  float:right;
+  text-align: center;
+  clear: both;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+video#joevideo {
+  margin-top: 50px;
+  padding-left: 10px;
+  clear: right;
+  position: fixed;
+  opacity: .9;
+  height: 250px;
+}
+
+section#joe{
+  height: 372px;
+  border-bottom: 1px solid black;
+}
+
 
 /*//media queries*/
 /* Laptops /*/
