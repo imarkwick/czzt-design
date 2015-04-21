@@ -229,10 +229,44 @@ video#joevideo {
   height: 250px;
 }
 
-section#joe{
-  height: 372px;
-  border-bottom: 1px solid black;
+
+section#oodle {
+  border-top: solid 1px #000000;
+  margin-bottom: 0px;
+  margin-top: 100px;
 }
+video#oodlsvideo {
+  float:left;
+  clear: both;
+  margin-top: -75px;
+  position: absolute;
+  height:250px;
+}
+img#oodlslogo {
+  padding-top: 10px;
+  width:380px;
+  height:120px; 
+  float:left;
+}
+
+
+p#oodls{
+  margin-top:70px;
+  width:385px;
+  text-align: center;
+}
+div#oodls-wrap {
+  margin-left: 50px;
+}
+
+
+img#oodlslogo:hover{
+  opacity: .5;
+}
+
+
+
+
 
 
 /*//media queries*/
