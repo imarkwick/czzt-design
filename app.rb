@@ -16,7 +16,7 @@ class Application < Sinatra::Base
     :from =>params[:emailaddress],
     :subject =>params[:name],
     :body =>params[:body],  
-    :to =>'claretrembath@ymail.com',
+    :to =>'czztdevelopment@gmail.com',
     :via =>:smtp,
     :via_options => {
         :address => 'smtp.sendgrid.net',
