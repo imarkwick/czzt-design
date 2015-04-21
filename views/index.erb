@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+ <head>
   <meta charset="utf-8">
   <meta content="width=device-width" name="viewport">
 
@@ -22,138 +22,126 @@
   <script src="js/vague.js" type="text/javascript"></script>
   <script src="js/script.js" type="text/javascript"></script>
   <script src="js/jquery.fullPage.js" type="text/javascript"></script>
-</head>
+ </head>
 
-<body>
-  <div id="fullpage">
-    <div class="section" id="section">
-      <header>
-        <nav class="container-twelve-columns" id="navigation">
-          <p class="intro" id="hi">HI</p>
-
-          <p class="intro" id="im">we're</p>
-
-          <p class="intro" id="clare">izzy + clare</p>
-
-          <div id="intro-ios"> HI I'M CLARE TREMBATH</div>
-        </nav>
-      </header>
-
-      <section id="whole">
-        <section class="container circles" id="bannerfull">
-          <section class="container-ten-columns" id="bannerblue">
-            <section class="container" id="images">
-              <img class="circles" src="images/circle1.png"> <img class=
-              "circles" src="images/circle2.png"> <img class="circles" src=
-              "images/circle3.png"> <img class="circles" src=
-              "images/circle4.png">
-            </section>
-
-            <section class="container" id="words">
-              <h1>we are junior <span class="txt-rotate" data-period="2000"
-              data-rotate='[ "developers.", " designers.", "creators." ]'></span></h1>
-            </section>
-           
-            <section id="arrowsdown">
-              <svg class="arrows">
-              <path class="a1" d="M0 0 L30 32 L60 0"></path>
-              <path class="a2" d="M0 20 L30 52 L60 20"></path>
-              <path class="a3" d="M0 40 L30 72 L60 40"></path>
-              </svg>
-            </section>
-          </section>
-        </div>
-
-  <div class="section" id="section">
-   
-   <section class="container" id="apparel">
-      <a href="/engindex.erb" id="englink"><img id="englogolink" src="images/englogo.png"></a>
-      <p id="engintro">Based on the american Apparel website, A pure front-end mock up for an e-commerce clothing site. </p>
-    <div id="covereng">
-    <video id="engvideo" width="550" height="300" autoplay="autoplay" loop>
-      <source src="videos/apparelmovie.mp4" type="video/mp4">
-    </video>
-  </div>
-</section>
-  <section class="container" id="sleaze">
-    <div id="wrap-sleaze">
-    <p id="sleazeintro">Sleazy Sounds is a music website that lets users search for and play tracks</p>
-    <a href="http://sleazysounds.herokuapp.com" target="_blank" id="sleazelink"><img id="sleazylogo" src="images/sleazylogo.png"></a>
-  </div>
-    <div id="coversleaze">
-     <video id="sleazevideo" width="550" height="300" autoplay="autoplay" loop>
-      <source src="videos/sleaze.mp4" type="video/mp4">
-    </video>
-    </div>
-  </section>
-  </div>
- </section>
-
-<div class="section" id="section">
-    <div id="joeheader"></div>
-   <section class="container" id="joe">
-      <a href="https://jt-app.herokuapp.com/" id="joelink">
-        <img id="joelogo" src="images/cutout_logo.png"></a>
-      <p id="joeintro">mobile optimised audio app designed for artist to showcase tracks and events</p>
-    <div id="coverjoe">
-    <video id="joevideo" width="550" height="300" autoplay="autoplay" loop>
-      <source src="videos/joefinal.mp4" type="video/mp4">
-    </video>
-  </div>
-</section>
-
-   <section class="container" id="oodle">
-      <div id="oodls-wrap">
-      <p id="oodls">charity website to help reduce food waste via donation hotspots</p>
-      <a href="https://http://www.oodls.io/" id="oodlslink">
-        <img id="oodlslogo" src="images/oodls.svg"></a>
-    </div>
-    <div id="coveroodls">
-    <video id="oodlsvideo" width="550" height="300" autoplay="autoplay" loop>
-      <source src="videos/oodles.mp4" type="video/mp4">
-    </video>
-  </div>
-</section>
-
-</div>
-
-
-
- <div class="section" id="section" style=
-  "background-image: url(images/waterback.jpg);">
-    <section class="container" id="emailform">
-      <div id="form-main">
-        <div id="form-div">
-          <form action="/" class="form" id="form1" method="post" name="form1">
-            <input class=
-            "validate[required,custom[onlyLetter],length[0,100]] feedback-input"
-            id="name" name="name" placeholder="name" type="text"> <input class=
-            "validate[required,custom[email]] feedback-input" id="email" name=
-            "emailaddress" placeholder="email" type="text"> 
-            <textarea class="validate[required,length[6,300]] feedback-input"
-            id="comment" name="body" placeholder="message">
-</textarea>
-
-            <div class="submit">
-              <button id="button-blue" type="submit" value="Send">S E N D</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <script src="js/wow.min.js"></script> <script>
-new WOW().init();
-  </script> <script type="text/javascript">
-$(document).ready(function() {
-            $('#fullpage').fullpage({
-                sectionsColor: ['#eeeee', '#eeeee', '#eeeee', 'whitesmoke', '#ccddff'],
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-                menu: '#menu',
-                scrollingSpeed: 1000
-            });
-        });
-  </script> 
-</body>
+ <body>
+   <div id="fullpage">
+     <div class="section" id="section">
+       <header>
+         <nav class="container-twelve-columns" id="navigation">
+           <p class="intro" id="hi">HI</p>
+           <p class="intro" id="im">we're</p>
+           <p class="intro" id="clare">izzy + clare</p>
+           <div id="intro-ios"> 
+             HI I'M CLARE TREMBATH
+           </div>
+         </nav>
+       </header>
+     <section id="whole">
+       <section class="container circles" id="bannerfull">
+           <section class="container-ten-columns" id="bannerblue">
+             <section class="container" id="images">
+               <img class="circles" src="images/circle1.png"> 
+               <img class="circles" src="images/circle2.png"> 
+               <img class="circles" src="images/circle3.png">
+               <img class="circles" src="images/circle4.png">
+             </section>
+             <section class="container" id="words">
+               <h1>we are junior <span class="txt-rotate" data-period="2000"
+               data-rotate='[ "developers.", " designers.", "creators." ]'></span></h1>
+             </section>
+             <section id="arrowsdown">
+               <svg class="arrows">
+               <path class="a1" d="M0 0 L30 32 L60 0"></path>
+               <path class="a2" d="M0 20 L30 52 L60 20"></path>
+               <path class="a3" d="M0 40 L30 72 L60 40"></path>
+               </svg>
+             </section>
+           </section>
+         </section>
+     </div>
+     <div class="section" id="section">  
+           <section class="container" id="apparel">
+             <a href="/engindex.erb" id="englink"><img id="englogolink" src="images/englogo.png"></a>
+             <p id="engintro">Based on the american Apparel website, A pure front-end mock up for an e-commerce clothing site. </p>
+             <div id="covereng">
+               <video id="engvideo" width="550" height="300" autoplay="autoplay" loop>
+                 <source src="videos/apparelmovie.mp4" type="video/mp4">
+               </video>
+             </div>
+           </section>
+           <section class="container" id="sleaze">
+             <div id="wrap-sleaze">
+               <a href="http://sleazysounds.herokuapp.com" target="_blank" id="sleazelink"><img id="sleazylogo" src="images/sleazylogo.png"></a>
+               <p id="sleazeintro">Sleazy Sounds is a music website that lets users search for and play tracks</p>
+             </div>
+             <div id="coversleaze">
+               <video id="sleazevideo" width="550" height="300" autoplay="autoplay" loop>
+                 <source src="videos/sleaze.mp4" type="video/mp4">
+               </video>
+             </div>
+         </section>
+       </div>
+     </section>
+     <div class="section" id="section">
+       <div id="joeheader"></div>
+       <section class="container" id="joe">
+         <a href="https://http://jt-app.herokuapp.com/" id="joelink">
+         <img id="joelogo" src="images/cutout_logo.png"></a>
+         <p id="joeintro">mobile optimised audio app designed for artist to showcase tracks and events</p>
+       <div id="coverjoe">
+         <video id="joevideo" width="550" height="300" autoplay="autoplay" loop>
+           <source src="videos/joefinal.mp4" type="video/mp4">
+         </video>
+       </div>
+     </section>
+     <section class="container" id="oodle">
+       <div id="oodls-wrap">
+         <a href="https://http://www.oodls.io/" id="oodlslink">
+         <img id="oodlslogo" src="images/oodls.svg"></a>
+         <p id="oodls">charity website to help reduce food waste via donation hotspots</p>
+       </div>
+       <div id="coveroodls">
+         <video id="oodlsvideo" width="550" height="300" autoplay="autoplay" loop>
+           <source src="videos/oodles.mp4" type="video/mp4">
+         </video>
+       </div>
+     </section>
+   </div>
+   <div class="section" id="section" style="background-image: url(images/waterback.jpg);">
+     <section class="container" id="emailform">
+       <div id="form-main">
+         <div id="form-div">
+           <form action="/" class="form" id="form1" method="post" name="form1">
+             <input class=
+             "validate[required,custom[onlyLetter],length[0,100]] feedback-input"
+             id="name" name="name" placeholder="name" type="text"> <input class=
+             "validate[required,custom[email]] feedback-input" id="email" name=
+             "emailaddress" placeholder="email" type="text"> 
+             <textarea class="validate[required,length[6,300]] feedback-input"
+             id="comment" name="body" placeholder="message">
+             </textarea>
+             <div class="submit">
+               <button id="button-blue" type="submit" value="Send">S E N D</button>
+             </div>
+           </form>
+          </div>
+       </div>
+     </section>
+   </div>
+   <script src="js/wow.min.js"></script> 
+   <script>
+     new WOW().init();
+   </script> 
+   <script type="text/javascript">
+     $(document).ready(function() {
+       $('#fullpage').fullpage({
+         sectionsColor: ['#eeeee', '#eeeee', '#eeeee', 'whitesmoke', '#ccddff  '],
+         anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+         menu: '#menu',
+         scrollingSpeed: 1000
+       });
+     });
+   </script> 
+ </body>
 </html>
