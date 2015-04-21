@@ -95,12 +95,11 @@ section#work-title{
 
 section#apparel{
   margin-top: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 section#sleaze {
   border-top: solid 1px #000000;
-  padding-top: 20px;
 }
 
 section#emailform {
@@ -265,6 +264,26 @@ img#oodlslogo:hover{
     margin-left: none;
   }
 
+  section#oodle{
+    margin-top: 60px;
+  }
+
+  div#joeheader {
+  height: 30px;
+}
+
+  p#sleazeintro {
+  margin-top: 30px;
+  width: 385px;
+  text-align: center;
+}
+
+p#oodls{
+  margin-top: 10px;
+  width:385px;
+  text-align: center;
+}
+
   section#words {
     font-size: 1em;
     padding-top: 10px;
@@ -285,6 +304,14 @@ img#oodlslogo:hover{
   section#words {
     font-size: 1em;
     padding-top: 20px;
+  }
+  p#oodls{
+  margin-top: 80px;
+  width:385px;
+  text-align: center;
+}
+   section#oodle{
+    margin-top: 100px;
   }
 
   video {
