@@ -106,9 +106,14 @@ section#work-title{
   width: 100%;
 }
 
-
 section#apparel{
   margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+section#sleaze {
+  border-top: solid 1px #000000;
+  padding-top: 20px;
 }
 
 section#emailform {
@@ -150,12 +155,6 @@ div#covereng{
   margin-top: 30px;
 }
 
-section#sleaze {
-  border-top: solid 1px #000000;
-  margin-bottom: 0px;
-  margin-top: 100px;
-}
-
 video#sleazevideo {
   float: left;
   clear: both;
@@ -169,6 +168,7 @@ p#sleazeintro{
   width: 385px;
   text-align: center;
 }
+
 div#wrap-sleaze {
   margin-left: 50px;
 }
@@ -312,7 +312,20 @@ img#sleazylogo:hover{
   section#arrowsdown {
     margin-top:0;
   }
+
+  section#apparel {
+    margin-left: 58px;
+    height: 170px;
+    margin-bottom: 12px;
+  }
+
+  #apparel p {
+    width: 300px;
+    text-align: center;
+    margin-right: 3rem;
+  }
 }
+
 
 /*iphone vertical*/
 
@@ -360,5 +373,33 @@ img#sleazylogo:hover{
 
   section#arrowsdown {
     margin-top: 40px;
+  }
+
+  section#apparel{
+    height: 50%;
+    margin-top: 100px;
+    margin-bottom: 18px;
+  }
+
+  img#englogolink {
+    height: 60px;
+    width: 158px;
+    float: left;
+    margin-top: 28px;
+  }
+
+  section#sleaze {
+    height: 50%;
+  }
+
+  #sleaze p {
+    width: 300px;
+    margin-top: 24px;
+    margin-left: -50px;
+    margin-bottom: 18px;
+  }
+
+  img#sleazylogo {
+    margin-left: -24px;
   }
 }
