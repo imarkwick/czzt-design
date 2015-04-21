@@ -40,7 +40,6 @@ p.intro {
   display: none
 }
 
-
 p#clare {
   letter-spacing: 2px;
 }
@@ -121,12 +120,12 @@ section#emailform {
 }
 
 img#englogolink{
-height: 150px;
-width: 300px;
-border-bottom: 1px solid #BDBDBD;
-float: right;
-margin-right: 50px;
-margin-top: 40px;
+  height: 150px;
+  width: 300px;
+  border-bottom: 1px solid #BDBDBD;
+  float: right;
+  margin-right: 50px;
+  margin-top: 40px;
 }
 
 img#englogolink:hover{
@@ -199,12 +198,12 @@ div#joeheader {
 }
 
 img#joelogo{
-height:150px;
-width: 200px;
-border-bottom:1px solid #BDBDBD;
-float:right;
-margin-right: 217px;
-margin-top: 40px;
+  height:150px;
+  width: 200px;
+  border-bottom:1px solid #BDBDBD;
+  float:right;
+  margin-right: 217px;
+  margin-top: 40px;
 }
 
 img#joelogo:hover{
@@ -229,45 +228,44 @@ video#joevideo {
   height: 250px;
 }
 
-
 section#oodle {
   border-top: solid 1px #000000;
   margin-bottom: 0px;
   margin-top: 100px;
 }
+
 video#oodlsvideo {
-  float:left;
+  float: left;
   clear: both;
-  margin-top: -75px;
+  margin-top: -162px;
   position: absolute;
-  height:250px;
-}
-img#oodlslogo {
-  padding-top: 10px;
-  width:380px;
-  height:120px; 
-  float:left;
+  height: 250px;
+  margin-left: 450px;
 }
 
+img#oodlslogo {
+  padding-top: 10px;
+  width: 380px;
+  height: 120px; 
+  float: left;
+  border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 28px;
+  padding-bottom: 12px;
+}
 
 p#oodls{
   margin-top:70px;
   width:385px;
   text-align: center;
 }
+
 div#oodls-wrap {
   margin-left: 50px;
 }
 
-
 img#oodlslogo:hover{
   opacity: .5;
 }
-
-
-
-
-
 
 /*//media queries*/
 /* Laptops /*/
