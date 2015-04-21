@@ -158,17 +158,19 @@ section#sleaze {
 
 video#sleazevideo {
   float:left;
-  padding:20px;
   clear: both;
-  margin-top: -150px;
+  margin-top: -75px;
   height:250px;
   position: absolute;
 }
 
 p#sleazeintro{
-  margin-top:100px;
+  margin-top:70px;
   width:385px;
   text-align: center;
+}
+div#wrap-sleaze {
+  margin-left: 50px;
 }
 
 img#sleazylogo {
