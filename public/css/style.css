@@ -107,7 +107,7 @@ section#emailform {
   background-image: url(images/waterback.jpg);
 }
 
-img#englogolink{
+img#englogolink {
   height: 150px;
   width: 300px;
   border-bottom: 1px solid #BDBDBD;
@@ -399,7 +399,7 @@ img#oodlslogo:hover{
 
 /*iphone vertical*/
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:455px) {
   nav {
     height: 90px;
   }
@@ -449,14 +449,27 @@ img#oodlslogo:hover{
     height: 48%;
     margin-top: 100px;
     margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img#englogolink {
     height: 70px;
     width: 130px;
-    float:none;
-    margin-left: 38px;
+    margin-right: 0;
+    margin-left: 86px;
     margin-top: 28px;
+    float: none;
+  }
+
+  #apparel p {
+    width: 300px;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  p#engintro {
+    margin-right: 0;
   }
 
   section#sleaze {
