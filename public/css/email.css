@@ -163,9 +163,9 @@ textarea{
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 455px) {
 #form-main {
-  padding-top: 25%;
+  padding-top: 30%;
   }
 .feedback-input{
   font-size: 10px;
