@@ -464,9 +464,10 @@ img#oodlslogo:hover{
   }
 
   img#englogolink {
-    height: 60px;
-    width: 158px;
-    float: left;
+    height: 70px;
+    width: 130px;
+    float:none;
+    margin-left: 38px;
     margin-top: 28px;
   }
 
