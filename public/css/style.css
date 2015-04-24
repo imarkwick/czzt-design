@@ -292,8 +292,6 @@ img#oodlslogo:hover{
 
 /* Styles */
 
-
-
 /*ipad horizontal*/
 
 @media screen and (max-width: 1024px) {
@@ -316,9 +314,12 @@ img#oodlslogo:hover{
     width: 59rem;
   }
 
-  section #apparel {
+  section.project-p1 {
     width: 28rem;
-    display: flex;
+  }
+
+  section#joe {
+    width: 42rem;
   }
   
   p#oodls{
@@ -326,8 +327,10 @@ img#oodlslogo:hover{
     width:385px;
     text-align: center;
   }
-   section#oodle{
+
+  section#oodle{
     margin-top: 100px;
+    width: 28rem;
   }
 
   video {
@@ -399,6 +402,14 @@ img#oodlslogo:hover{
     width: 25rem;
   }
 
+  section#joe {
+    width: 38rem;
+  }
+
+  section#oodle{
+    width: 30rem;
+  }
+
   section#words {
     font-size: 10px;
     width: 500px; 
@@ -428,7 +439,7 @@ img#oodlslogo:hover{
 
   section#images {
     margin-top: 8rem;
-    width: 18rem;
+    width: 25rem;
   }
 
   section#words {
@@ -469,6 +480,10 @@ img#oodlslogo:hover{
     width: 300px;
     text-align: center;
     margin-right: 3rem;
+  }
+
+  form.form {
+    width: 27rem;
   }
 }
 
@@ -511,6 +526,11 @@ img#oodlslogo:hover{
     height: 90px;
   }
 
+  section#images {
+    margin-top: 8rem;
+    width: 18rem;
+  }
+
   section.circles {
     padding-top: 180px;
     height: 500px;
@@ -531,6 +551,7 @@ img#oodlslogo:hover{
     margin-bottom: 18px;
     margin-left: auto;
     margin-right: auto;
+    width: 19rem;
   }
 
   img#englogolink {
@@ -554,6 +575,8 @@ img#oodlslogo:hover{
 
   section#sleaze {
     height: 50%;
+    width: 19rem;
+    padding-top: 14px;
   }
 
   #sleaze p {
@@ -570,6 +593,7 @@ img#oodlslogo:hover{
 
   section#joe {
     height: 44%;
+    width: 19rem;
   }
 
   img#joelogo {
@@ -593,6 +617,7 @@ img#oodlslogo:hover{
     height: 48%;
     margin-top: 14px;
     margin-bottom: 18px; 
+    width: 19rem;
   }
 
   img#oodlslogo {
@@ -604,6 +629,10 @@ img#oodlslogo:hover{
     width: 300px;
     float: none;
     margin-left: -50px;
+  }
+
+  form.form {
+    width: 23rem;
   }
 
 }
