@@ -660,7 +660,7 @@ img#oodlslogo:hover{
 
 /* horiztontal media queries less than 715px */
 
-@media screen and (min-height:600px) {
+@media screen and (max-height:660px) {
 
   video#sleazevideo {
     margin-top: -196px;
@@ -695,6 +695,43 @@ img#oodlslogo:hover{
   h1#rolling {
     margin-bottom: 1px;
   }
+}
+
+@media screen and (max-height:610px) {
+
+
+  video#sleazevideo {
+    height: 216px;
+  }
+
+  img#joelogo {
+    margin-top: 6px;
+  }
+
+  video#joevideo {
+    height: 228px;
+  }
+
+  video#oodlsvideo {
+    height: 222px;
+  }
+
+  video#engvideo {
+    height: 214px;
+  }
+
+  img#englogolink {
+    height: 140px;
+  }
+
+  form.form {
+    margin-top: -88px;
+  }
+
+  section.circles {
+    padding-top: 188px;
+  }
+
 }
 
 
