@@ -321,7 +321,8 @@ p#oodls{
 
 /*/ipad vertical/*/
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
+  
   nav {
     height: 190px;
   }
@@ -346,9 +347,17 @@ p#oodls{
     margin-left: none;
   }
 
+  section#images {
+    display: flex;
+  }
+
+  .container {
+    width: 34rem;
+  }
+
   img.circles {
-    height: 185px;
-    width: 185px;
+    height: 140px;
+    width: 140px;
   }
 
   section#words {
@@ -358,6 +367,25 @@ p#oodls{
 
   section#arrowsdown {
     margin-top: 100px;
+  }
+}
+
+/*// Inbetween ipad and iphone //*/
+
+@media screen and (max-width:610px) {
+
+  img.circles {
+    height: 100px;
+    width: 100px;
+  }
+
+  section#images {
+    width: 25rem;
+  }
+
+  section#words {
+    font-size: 10px;
+    width: 500px; 
   }
 }
 
@@ -373,41 +401,46 @@ p#oodls{
   }
 
   p.intro {
-    font-size:30px;
-    padding-top:20px;
+    font-size: 30px;
+    padding-top: 20px;
   }
 
   section.circles {
-    padding-top:80px;
-    height:100px;
+    padding-top: 80px;
+    height: 100px;
+  }
+
+  section#images {
+    margin-top: 8rem;
+    width: 18rem;
   }
 
   section#words {
-    font-size:7px;
-    padding-top:0;
+    font-size: 7px;
+    padding-top: 0;
   }
 
   section#bannerfull {
-    height:0;
-    margin-top:0;
-    margin-bottom:0;
+    height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   section#bannerblue {
-    margin-top:0;
-    margin-left:0;
-    margin-right:0;
-    width:100%;
-    height:100px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 100px;
   }
 
   img.circles {
-    height:100px;
-    width:100px;
+    height: 100px;
+    width: 100px;
   }
 
   section#arrowsdown {
-    margin-top:0;
+    margin-top: 0;
   }
 
   section#apparel {
@@ -438,6 +471,10 @@ p#oodls{
   p.intro {
     font-size: 25px;
     padding-top: 30px;
+  }
+
+  h1 {
+    width: 25rem
   }
 
   section#words {
