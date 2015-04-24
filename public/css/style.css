@@ -259,15 +259,23 @@ img#oodlslogo:hover{
 /*//media queries*/
 /* Laptops /*/
 
-@media screen and (max-width : 1324px), screen and (min-height: 715px) {
+@media screen and (max-width : 1324px), screen and (max-height: 715px) {
   section.circles {
     padding-top: 200px;
     height: 500px;
     margin-left: none;
   }
 
+  section#apparel {
+    height: 42%;
+  }
+
   section#oodle{
-    margin-top: 60px;
+    margin-top: 42px;
+  }
+
+  section#sleaze {
+    height: 54%;
   }
 
   div#joeheader {
@@ -631,6 +639,7 @@ img#oodlslogo:hover{
     margin-top: 14px;
     margin-bottom: 18px; 
     width: 19rem;
+    padding-bottom: 2rem;
   }
 
   img#oodlslogo {
@@ -647,5 +656,49 @@ img#oodlslogo:hover{
   form.form {
     width: 23rem;
   }
-
 }
+
+/* horiztontal media queries less than 715px */
+
+@media screen and (min-height:600px) {
+
+  video#sleazevideo {
+    margin-top: -196px;
+  }
+
+  section#apparel {
+    margin-top: 92px;
+    margin-bottom: 56px;
+  }
+
+  video#oodlsvideo {
+    margin-top: -190px;
+    height: 240px;
+  }
+
+  video#joevideo {
+    margin-top: 26px;
+  }
+
+  img#joelogo {
+    margin-top: 26px;
+  }
+
+  form.form {
+    margin-top: -68px;
+  }
+
+  section#arrowsdown {
+    margin-top: 0px;
+  }
+
+  h1#rolling {
+    margin-bottom: 1px;
+  }
+}
+
+
+
+
+
+
