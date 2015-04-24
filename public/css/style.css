@@ -94,12 +94,14 @@ section#work-title{
 }
 
 section#apparel{
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 40px;
+  height: 46%;
 }
 
 section#sleaze {
   border-top: solid 1px #000000;
+  height: 46%;
 }
 
 section#emailform {
@@ -257,7 +259,7 @@ img#oodlslogo:hover{
 /*//media queries*/
 /* Laptops /*/
 
-@media screen and (max-width : 1324px) {
+@media screen and (max-width : 1324px), screen and (min-height: 715px) {
   section.circles {
     padding-top: 200px;
     height: 500px;
@@ -319,7 +321,7 @@ img#oodlslogo:hover{
   }
 
   section#joe {
-    width: 42rem;
+    width: 40rem;
   }
   
   p#oodls{
@@ -402,8 +404,12 @@ img#oodlslogo:hover{
     width: 25rem;
   }
 
+  section#apparel {
+    margin-bottom: 140px;
+  }
+
   section#joe {
-    width: 38rem;
+    width: 36rem;
   }
 
   section#oodle{
@@ -472,8 +478,14 @@ img#oodlslogo:hover{
 
   section#apparel {
     margin-left: 58px;
-    height: 170px;
-    margin-bottom: 12px;
+    /*height: 170px;*/
+    /*margin-bottom: 140px;*/
+    height: 40%;
+    width: 24rem;
+  }
+
+  section#sleaze {
+    /*border-top: none;*/
   }
 
   #apparel p {
@@ -484,6 +496,7 @@ img#oodlslogo:hover{
 
   form.form {
     width: 27rem;
+    margin-top: 10rem;
   }
 }
 
