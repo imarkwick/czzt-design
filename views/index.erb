@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width" name="viewport">
-
-  <title>czzt</title>
-  <meta content="Clare Trembaths Portfolio Page" name="description">
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/skeleton.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet">
-  <link href="css/button.css" rel="stylesheet">
-  <link href="css/email.css" rel="stylesheet">
-  <link href="css/jquery.fullPage.css" rel="stylesheet">
-  <link href=
-  'https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel=
-  'stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-  <script src="js/jquery.js" type="text/javascript"></script>
-  <script src="js/vague.js" type="text/javascript"></script>
-  <script src="js/script.js" type="text/javascript"></script>
-  <script src="js/jquery.fullPage.js" type="text/javascript"></script>
- </head>
+    <meta charset="utf-8">
+    <meta content="width=device-width" name="viewport">
+    <title>czzt</title>
+    <meta content="Clare Trembaths Portfolio Page" name="description">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/foundation.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/email.css" rel="stylesheet">
+    <link href="css/jquery.fullPage.css" rel="stylesheet">
+    <link href=
+    'https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel=
+    'stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/vague.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/jquery.fullPage.js" type="text/javascript"></script>
+    <script src="js/foundation.js" type="text/javascript"></script>
+    <!-- Begin Google Analytics -->
+    <script>
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-M5J9B3');
+    </script>
+    <!-- End Google Analytics -->
+  </head>
   <body>
     <div id="fullpage">
       <div class="section" id="section">
@@ -43,7 +53,7 @@
                 <img class="circles" src="images/circle4.png">
               </section>
               <section class="container" id="words">
-                <h1>we are junior <span class="txt-rotate" data-period="2000"
+                <h1 id="rolling">we are junior <span class="txt-rotate" data-period="2000"
                 data-rotate='[ "developers.", " designers.", "creators." ]'></span></h1>
               </section>
               <section id="arrowsdown">
@@ -57,16 +67,25 @@
           </section>
       </div>
           <div class="section" id="section">  
+<<<<<<< HEAD
             <section class="container" id="apparel">
               <a href="https://english-apparel.herokuapp.com/" id="englink"><img id="englogolink" src="images/englogo.png"></a>
+=======
+            <section class="container project-p1" id="apparel">
+              
+              <div class="logo-copy">
+              <a href="/engindex.erb" id="englink"><img id="englogolink" src="images/englogo.png"></a>
+>>>>>>> 952d32e059feb9f1c19af2ba5d9fbbe49d209da0
               <p id="engintro">Based on the american Apparel website, A pure front-end mock up for an e-commerce clothing site.</p>
+              </div>
+              
               <div id="covereng">
                 <video id="engvideo" preload="auto" width="550" height="300" autoplay="autoplay" loop>
                   <source src="videos/apparelmovie.mp4" type="video/mp4">
                 </video>
               </div>
             </section>
-            <section class="container" id="sleaze">
+            <section class="container project-p1" id="sleaze">
               <div id="wrap-sleaze">
                 <a href="http://sleazysounds.herokuapp.com" target="_blank" id="sleazelink"><img id="sleazylogo" src="images/sleazylogo.png"></a>
                 <p id="sleazeintro">Sleazy Sounds is a music website that lets users search for and play tracks.</p>

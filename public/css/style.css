@@ -94,12 +94,14 @@ section#work-title{
 }
 
 section#apparel{
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 40px;
+  height: 46%;
 }
 
 section#sleaze {
   border-top: solid 1px #000000;
+  height: 46%;
 }
 
 section#emailform {
@@ -257,32 +259,40 @@ img#oodlslogo:hover{
 /*//media queries*/
 /* Laptops /*/
 
-@media screen and (max-width : 1324px) {
+@media screen and (max-width : 1324px), screen and (max-height: 715px) {
   section.circles {
     padding-top: 200px;
     height: 500px;
     margin-left: none;
   }
 
+  section#apparel {
+    height: 42%;
+  }
+
   section#oodle{
-    margin-top: 60px;
+    margin-top: 42px;
+  }
+
+  section#sleaze {
+    height: 54%;
   }
 
   div#joeheader {
-  height: 30px;
-}
+    height: 30px;
+  }
 
   p#sleazeintro {
-  margin-top: 30px;
-  width: 385px;
-  text-align: center;
-}
+    margin-top: 30px;
+    width: 385px;
+    text-align: center;
+  }
 
-p#oodls{
-  margin-top: 10px;
-  width:385px;
-  text-align: center;
-}
+  p#oodls{
+    margin-top: 10px;
+    width:385px;
+    text-align: center;
+  }
 
   section#words {
     font-size: 1em;
@@ -305,13 +315,32 @@ p#oodls{
     font-size: 1em;
     padding-top: 20px;
   }
+
+  section.logo-copy {
+    text-align: center;
+  }
+
+  .container {
+    width: 59rem;
+  }
+
+  section.project-p1 {
+    width: 28rem;
+  }
+
+  section#joe {
+    width: 40rem;
+  }
+  
   p#oodls{
-  margin-top: 80px;
-  width:385px;
-  text-align: center;
-}
-   section#oodle{
+    margin-top: 80px;
+    width:385px;
+    text-align: center;
+  }
+
+  section#oodle{
     margin-top: 100px;
+    width: 28rem;
   }
 
   video {
@@ -321,7 +350,8 @@ p#oodls{
 
 /*/ipad vertical/*/
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
+  
   nav {
     height: 190px;
   }
@@ -346,9 +376,17 @@ p#oodls{
     margin-left: none;
   }
 
+  section#images {
+    display: flex;
+  }
+
+  .container {
+    width: 34rem;
+  }
+
   img.circles {
-    height: 185px;
-    width: 185px;
+    height: 140px;
+    width: 140px;
   }
 
   section#words {
@@ -358,6 +396,37 @@ p#oodls{
 
   section#arrowsdown {
     margin-top: 100px;
+  }
+}
+
+/*// Inbetween ipad and iphone //*/
+
+@media screen and (max-width:610px) {
+
+  img.circles {
+    height: 100px;
+    width: 100px;
+  }
+
+  section#images {
+    width: 25rem;
+  }
+
+  section#apparel {
+    margin-bottom: 140px;
+  }
+
+  section#joe {
+    width: 36rem;
+  }
+
+  section#oodle{
+    width: 30rem;
+  }
+
+  section#words {
+    font-size: 10px;
+    width: 500px; 
   }
 }
 
@@ -373,53 +442,69 @@ p#oodls{
   }
 
   p.intro {
-    font-size:30px;
-    padding-top:20px;
+    font-size: 30px;
+    padding-top: 20px;
   }
 
   section.circles {
-    padding-top:80px;
-    height:100px;
+    padding-top: 80px;
+    height: 100px;
+  }
+
+  section#images {
+    margin-top: 8rem;
+    width: 25rem;
   }
 
   section#words {
-    font-size:7px;
-    padding-top:0;
+    font-size: 7px;
+    padding-top: 0;
   }
 
   section#bannerfull {
-    height:0;
-    margin-top:0;
-    margin-bottom:0;
+    height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   section#bannerblue {
-    margin-top:0;
-    margin-left:0;
-    margin-right:0;
-    width:100%;
-    height:100px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 100px;
   }
 
   img.circles {
-    height:100px;
-    width:100px;
+    height: 100px;
+    width: 100px;
   }
 
   section#arrowsdown {
-    margin-top:0;
+    margin-top: 0;
   }
 
   section#apparel {
     margin-left: 58px;
-    height: 170px;
-    margin-bottom: 12px;
+    /*height: 170px;*/
+    /*margin-bottom: 140px;*/
+    height: 40%;
+    width: 24rem;
+  }
+
+  section#sleaze {
+    /*border-top: none;*/
   }
 
   #apparel p {
     width: 300px;
     text-align: center;
     margin-right: 3rem;
+  }
+
+  form.form {
+    width: 27rem;
+    margin-top: 10rem;
   }
 }
 
@@ -440,6 +525,10 @@ p#oodls{
     padding-top: 30px;
   }
 
+  h1 {
+    width: 25rem
+  }
+
   section#words {
     font-size: 8px;
   }
@@ -456,6 +545,11 @@ p#oodls{
     margin-right: 0;
     width: 100%;
     height: 90px;
+  }
+
+  section#images {
+    margin-top: 8rem;
+    width: 18rem;
   }
 
   section.circles {
@@ -478,6 +572,7 @@ p#oodls{
     margin-bottom: 18px;
     margin-left: auto;
     margin-right: auto;
+    width: 19rem;
   }
 
   img#englogolink {
@@ -501,6 +596,8 @@ p#oodls{
 
   section#sleaze {
     height: 50%;
+    width: 19rem;
+    padding-top: 14px;
   }
 
   #sleaze p {
@@ -517,6 +614,7 @@ p#oodls{
 
   section#joe {
     height: 44%;
+    width: 19rem;
   }
 
   img#joelogo {
@@ -540,6 +638,8 @@ p#oodls{
     height: 48%;
     margin-top: 14px;
     margin-bottom: 18px; 
+    width: 19rem;
+    padding-bottom: 2rem;
   }
 
   img#oodlslogo {
@@ -553,4 +653,89 @@ p#oodls{
     margin-left: -50px;
   }
 
+  form.form {
+    width: 23rem;
+  }
 }
+
+/* horiztontal media queries less than 715px */
+
+@media screen and (max-height:660px) {
+
+  video#sleazevideo {
+    margin-top: -196px;
+  }
+
+  section#apparel {
+    margin-top: 92px;
+    margin-bottom: 56px;
+  }
+
+  video#oodlsvideo {
+    margin-top: -190px;
+    height: 240px;
+  }
+
+  video#joevideo {
+    margin-top: 26px;
+  }
+
+  img#joelogo {
+    margin-top: 26px;
+  }
+
+  form.form {
+    margin-top: -68px;
+  }
+
+  section#arrowsdown {
+    margin-top: 0px;
+  }
+
+  h1#rolling {
+    margin-bottom: 1px;
+  }
+}
+
+@media screen and (max-height:610px) {
+
+
+  video#sleazevideo {
+    height: 216px;
+  }
+
+  img#joelogo {
+    margin-top: 6px;
+  }
+
+  video#joevideo {
+    height: 228px;
+  }
+
+  video#oodlsvideo {
+    height: 222px;
+  }
+
+  video#engvideo {
+    height: 214px;
+  }
+
+  img#englogolink {
+    height: 140px;
+  }
+
+  form.form {
+    margin-top: -88px;
+  }
+
+  section.circles {
+    padding-top: 188px;
+  }
+
+}
+
+
+
+
+
+
