@@ -403,11 +403,6 @@ img#oodlslogo:hover{
   section#images{
     margin-top: 100px;  
   }
-  
-  img.circles {
-  height: 40px;
-  width:40px;  }
-
    section.circles {
     padding-top: 100px;
     height: 100px;
@@ -421,12 +416,12 @@ img#oodlslogo:hover{
 @media screen and (max-width:610px) {
 
   img.circles {
-    height: 100px;
+    height: 00px;
     width: 100px;
   }
 
   section#images {
-    width: 25rem;
+    width: 23rem;
   }
 
   section#apparel {
@@ -450,6 +445,11 @@ img#oodlslogo:hover{
 
 /*/iphone 5 portrait/*/
 @media screen and (max-width: 568px) {
+   section#images {
+    margin-top: 8rem;
+    width: 12rem;
+  }
+
   img.circles {
     height: 50px;
     width: 50px;
@@ -481,7 +481,7 @@ img#oodlslogo:hover{
 
   section#images {
     margin-top: 8rem;
-    width: 25rem;
+    width: 12rem;
   }
 
   section#words {
@@ -760,6 +760,10 @@ img#oodlslogo:hover{
   padding-top: 102px;
     }
 
+  section#images {
+    margin-top: 8rem;
+    width: 14rem;
+  }
   img.circles {
     height: 50px;
     width: 50px;
