@@ -399,6 +399,23 @@ img#oodlslogo:hover{
   }
 }
 
+@media screen and (max-width: 667px) { 
+  section#images{
+    margin-top: 100px;  
+  }
+  
+  img.circles {
+  height: 40px;
+  width:40px;  }
+
+   section.circles {
+    padding-top: 100px;
+    height: 100px;
+    margin-left: none;
+  }
+
+
+}
 /*// Inbetween ipad and iphone //*/
 
 @media screen and (max-width:610px) {
@@ -428,15 +445,6 @@ img#oodlslogo:hover{
     font-size: 10px;
     width: 500px; 
   }
-}
-
-@media screen and (max-width: 667px) { 
-  img.circles {
-    height: 50px;
-    width: 50px;
-    padding: 2px;
-  }
-
 }
 
 
@@ -569,7 +577,7 @@ img#oodlslogo:hover{
 
   section#images {
     margin-top: 8rem;
-    width: 18rem;
+    width: 13rem;
   }
 
   section.circles {
@@ -709,7 +717,7 @@ img#oodlslogo:hover{
   }
 
   section#arrowsdown {
-    margin-top: 0px;
+    margin-top: 40px;
   }
 
   h1#rolling {
@@ -749,7 +757,16 @@ img#oodlslogo:hover{
   }
 
   section.circles {
-    padding-top: 188px;
+  padding-top: 102px;
+    }
+
+  img.circles {
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+  }
+
+
   }
 
 }
