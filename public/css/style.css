@@ -430,6 +430,26 @@ img#oodlslogo:hover{
   }
 }
 
+@media screen and (max-width: 667px) { 
+  img.circles {
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+  }
+
+}
+
+
+/*/iphone 5 portrait/*/
+@media screen and (max-width: 568px) {
+  img.circles {
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+  }
+
+}
+
 /*//iphone horizontal//*/
 
 @media screen and (max-width:480px) {
