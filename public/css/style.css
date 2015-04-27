@@ -310,6 +310,7 @@ img#oodlslogo:hover{
     height: 500px;
     margin-left: none;
   }
+ 
 
   section#words {
     font-size: 1em;
@@ -368,6 +369,7 @@ img#oodlslogo:hover{
   section#words {
     padding-top: 30px;
     text-align: center;
+    font-size: 1em;
   }
 
   section.circles {
@@ -389,45 +391,36 @@ img#oodlslogo:hover{
     width: 140px;
   }
 
-  section#words {
-    font-size: 1em;
-    padding-top: 30px;
-  }
-
   section#arrowsdown {
     margin-top: 100px;
   }
+
 }
 
 @media screen and (max-width: 667px) { 
   section#images{
     margin-top: 100px;  
+    width: 23rem;
   }
    section.circles {
     padding-top: 100px;
     height: 100px;
     margin-left: none;
   }
-
-
-}
-/*// Inbetween ipad and iphone //*/
-
-@media screen and (max-width:610px) {
+  section#words {
+    font-size: 10px;
+    width: 100%; 
+  }
 
   img.circles {
     height: 00px;
     width: 100px;
   }
 
-  section#images {
-    width: 23rem;
-  }
-
   section#apparel {
     margin-bottom: 140px;
   }
-
+ 
   section#joe {
     width: 36rem;
   }
@@ -436,10 +429,6 @@ img#oodlslogo:hover{
     width: 30rem;
   }
 
-  section#words {
-    font-size: 10px;
-    width: 500px; 
-  }
  
 }
 
@@ -449,6 +438,12 @@ img#oodlslogo:hover{
    section#images {
     margin-top: 8rem;
     width: 12rem;
+  }
+  h1#rolling {
+    margin-bottom: 1px;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img.circles {
@@ -605,11 +600,11 @@ img#oodlslogo:hover{
   }
 
   img#englogolink {
-    height: 70px;
-    width: 130px;
+    height: 50px;
+    width: 110px;
     margin-right: 0;
     margin-left: 86px;
-    margin-top: 28px;
+    margin-top: 20px;
     float: none;
   }
 
@@ -642,7 +637,7 @@ img#oodlslogo:hover{
   }
 
   section#joe {
-    height: 44%;
+    height: 46%;
     width: 19rem;
   }
 
@@ -664,8 +659,8 @@ img#oodlslogo:hover{
   }
 
   section#oodle{
-    height: 48%;
-    margin-top: 14px;
+    height: 43%;
+    margin-top: 8px;
     margin-bottom: 18px; 
     width: 19rem;
     padding-bottom: 2rem;
@@ -673,7 +668,8 @@ img#oodlslogo:hover{
 
   img#oodlslogo {
     margin-left: -24px;
-    margin-top: -60px;
+    margin-top: -70px;
+    margin-bottom: 17px;
   }
 
   #oodle p {
@@ -697,7 +693,7 @@ img#oodlslogo:hover{
 
   section#apparel {
     margin-top: 92px;
-    margin-bottom: 56px;
+    margin-bottom: 20px;
   }
 
   video#oodlsvideo {
@@ -710,7 +706,7 @@ img#oodlslogo:hover{
   }
 
   img#joelogo {
-    margin-top: 26px;
+    margin-top: 0px;
   }
 
   form.form {
@@ -725,10 +721,7 @@ img#oodlslogo:hover{
     width: 12rem;
   }
 
-  h1#rolling {
-    margin-bottom: 1px;
-    width: 20rem;
-  }
+  
 }
 
 @media screen and (max-height:610px) {
@@ -739,7 +732,7 @@ img#oodlslogo:hover{
   }
 
   img#joelogo {
-    margin-top: 6px;
+    margin-top: 0px;
   }
 
   video#joevideo {
@@ -755,7 +748,7 @@ img#oodlslogo:hover{
   }
 
   img#englogolink {
-    height: 140px;
+    height: 90px;
   }
 
   form.form {
