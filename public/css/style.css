@@ -440,6 +440,7 @@ img#oodlslogo:hover{
     font-size: 10px;
     width: 500px; 
   }
+ 
 }
 
 
@@ -554,7 +555,7 @@ img#oodlslogo:hover{
   }
 
   h1 {
-    width: 25rem
+    width: 24rem
   }
 
   section#words {
@@ -719,9 +720,14 @@ img#oodlslogo:hover{
   section#arrowsdown {
     margin-top: 40px;
   }
+   section#images {
+    margin-top: 8rem;
+    width: 12rem;
+  }
 
   h1#rolling {
     margin-bottom: 1px;
+    width: 20rem;
   }
 }
 
